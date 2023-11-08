@@ -6,7 +6,7 @@
             body {
                 background-color: #202020;
                 color: #f2ae3a;
-                font-family: "Typewriter", monospace;
+                font-family: "Arial"
             }
         </style>
         <script src="break_eternity.min.js"></script>
@@ -24,8 +24,8 @@
         function getNameForLayer(layer){
         layer = new Decimal(layer-1) //to do a thing
         let nLayer = layer.toNumber();
-        let letters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-        let orders = "홀홇쇼셔로룘혛ㅊㅁ뵤려하";
+        let letters = "ㅣㅏㅑㅐㅓㅕㅔㅜㅠㅁㄴㅇㄹㅎㅂㅈㄷㄱㅅㅋㅌㅊㅍㅃㅉㄸㄲㅆㅒㅖ호효홀헣헐홓";
+        let orders = "모오포곰소료교죠홈버저더거서바자다가사뱌쟈댜갸주부주두구수후휴";
         let totalCombinations = (orders.length + 2) * letters.length;
         let arrowOrder = Math.floor(Math.log(nLayer) / Math.log(totalCombinations));
         let order = Math.floor(nLayer / letters.length);
