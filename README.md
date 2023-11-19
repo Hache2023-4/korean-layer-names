@@ -1,2 +1,2 @@
-# greek-layer-names
+# korean-layer-names
 easily get names from omega layers
