@@ -24,7 +24,7 @@
         function getNameForLayer(layer){
         layer = new Decimal(layer-1) //to do a thing
         let nLayer = layer.toNumber();
-        let letters = "ㅣㅏㅑㅐㅓㅕㅔㅜㅠㅁㄴㅇㄹㅎㅂㅈㄷㄱㅅㅋㅌㅊㅍㅃㅉㄸㄲㅆㅒㅖ호효홀헣헐홓";
+        let letters = "ㅣㅏㅑㅐㅓㅕㅔㅜㅠㅁㄴㅇㄹㅎㅂㅈㄷㄱㅅㅋㅌㅊㅍㅃㅉㄸㄲㅆㅒㅖ호효홀헣헐홓로료러려라랴래레룧롯룧";
         let orders = "모오포곰소료교죠홈버저더거서바자다가사뱌쟈댜갸주부주두구수후휴";
         let totalCombinations = (orders.length + 2) * letters.length;
         let arrowOrder = Math.floor(Math.log(nLayer) / Math.log(totalCombinations));
